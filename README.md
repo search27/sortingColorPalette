@@ -4,3 +4,16 @@
 * 키값을 통해 동일한 컬러를 가져옵니다.
 * 새로운 키값 -> 랜덤한 컬러 -> 기억 -> 컬러를 가져옵니다.
 
+* func : GetColor(key)
+* func : SetDefaultColors
+* func : SetRandomColors
+* func : SetColors
+
+
+```javascript
+
+const slp = new SortingClp();
+
+slp.GetColor('Sample Key');
+
+```
