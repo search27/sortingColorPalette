@@ -50,7 +50,7 @@ SortingClp.prototype.GetRandomColor = function(){
 }
 
 // FUNC
-SortingClp.prototype.GetColors = function(key){
+SortingClp.prototype.GetColor = function(key){
     if(!this.data) this.data = {};
     if(!this.data[key]) this.data[key] = this.GetRandomColor();
     return this.data[key];
